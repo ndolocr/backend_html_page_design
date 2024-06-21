@@ -6,8 +6,8 @@
     <title>Document</title>
     <!-- BEGIN GLOBAL MANDATORY STYLES -->
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&subset=all" rel="stylesheet" type="text/css" />
-    <link href="assets/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
-    <link href="assets/css/simple-line-icons.min.css" rel="stylesheet" type="text/css" />
+    <link href="assets/font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css" />
+    <link href="assets/simple-line-icons/simple-line-icons.min.css" rel="stylesheet" type="text/css" />
     <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <link href="assets//css/uniform.default.css" rel="stylesheet" type="text/css" />
     <link href="assets/css/bootstrap-switch.min.css" rel="stylesheet" type="text/css" />
@@ -45,7 +45,339 @@
     </div>
     <!-- END HEADER -->
     <!-- BEGIN HEADER & CONTENT DIVIDER -->
-    <div class="clearfix"> </div>
+    <div class="clearfix" style="clear: both;"> </div>
     <!-- END HEADER & CONTENT DIVIDER -->
+
+    <!-- BEGIN CONTAINER -->
+    <div class="page-container" style="margin: 0px !important;">
+        <!-- BEGIN SIDEBAR -->
+        <div class="page-sidebar-wrapper">
+            <!-- BEGIN SIDEBAR -->            
+            <div class="page-sidebar navbar-collapse collapse">
+                <!-- BEGIN SIDEBAR MENU -->                
+                <ul class="page-sidebar-menu  page-header-fixed " data-keep-expanded="false" data-auto-scroll="true" data-slide-speed="200" style="padding-top: 20px">
+                    <!-- DOC: To remove the sidebar toggler from the sidebar you just need to completely remove the below "sidebar-toggler-wrapper" LI element -->
+                    <li class="sidebar-toggler-wrapper hide">
+                        <!-- BEGIN SIDEBAR TOGGLER BUTTON -->
+                        <div class="sidebar-toggler"> </div>
+                        <!-- END SIDEBAR TOGGLER BUTTON -->
+                    </li>                    
+                    
+                    <li class="nav-item start ">
+                        <a href="javascript:;" class="nav-link nav-toggle">
+                            <i class="icon-home"></i>
+                            <span class="title">Dashboard</span>
+                            <span class="arrow"></span>
+                        </a>
+                        <ul class="sub-menu">
+                            <li class="nav-item start ">
+                                <a href="index.html" class="nav-link ">
+                                    <i class="icon-bar-chart"></i>
+                                    <span class="title">Dashboard 1</span>
+                                </a>
+                            </li>
+                            <li class="nav-item start ">
+                                <a href="dashboard_2.html" class="nav-link ">
+                                    <i class="icon-bulb"></i>
+                                    <span class="title">Dashboard 2</span>
+                                    <span class="badge badge-success">1</span>
+                                </a>
+                            </li>
+                            <li class="nav-item start ">
+                                <a href="dashboard_3.html" class="nav-link ">
+                                    <i class="icon-graph"></i>
+                                    <span class="title">Dashboard 3</span>
+                                    <span class="badge badge-danger">5</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="heading">
+                        <h3 class="uppercase">Menu</h3>
+                    </li>
+                    <li class="nav-item  ">
+                        <a href="javascript:;" class="nav-link nav-toggle">
+                            <i class="icon-diamond"></i>
+                            <span class="title">Menu Features</span>
+                            <span class="arrow"></span>
+                        </a>
+                        <ul class="sub-menu">
+                            <li class="nav-item  ">
+                                <a href="#" class="nav-link ">
+                                    <span class="title">One</span>
+                                </a>
+                            </li>
+                            <li class="nav-item  ">
+                                <a href="#" class="nav-link ">
+                                    <span class="title">Two</span>
+                                </a>
+                            </li>
+                            <li class="nav-item  ">
+                                <a href="#" class="nav-link ">
+                                    <span class="title">Three</span>
+                                </a>
+                            </li>                           
+                            <li class="nav-item  ">
+                                <a href="javascript:;" class="nav-link nav-toggle">
+                                    <span class="title">Sub Menu</span>
+                                    <span class="arrow"></span>
+                                </a>
+                                <ul class="sub-menu">
+                                    <li class="nav-item ">
+                                        <a href="#" class="nav-link "> Sub menu 1 </a>
+                                    </li>
+                                    <li class="nav-item ">
+                                        <a href="#" class="nav-link "> Sub Menu 2 </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item  ">
+                                <a href="#" class="nav-link ">
+                                    <span class="title">Four</span>
+                                </a>
+                            </li>                                                                                 
+                        </ul>
+                    </li>
+                                       
+                    <li class="nav-item  ">
+                        <a href="javascript:;" class="nav-link nav-toggle">
+                            <i class="icon-briefcase"></i>
+                            <span class="title">Menu Feature II </span>
+                            <span class="arrow"></span>
+                        </a>
+                        <ul class="sub-menu">
+                            <li class="nav-item  ">
+                                <a href="javascript:;" class="nav-link nav-toggle">
+                                    <span class="title">Static Features</span>
+                                    <span class="arrow"></span>
+                                </a>
+                                <ul class="sub-menu">
+                                    <li class="nav-item ">
+                                        <a href="#" class="nav-link "> Basic </a>
+                                    </li>
+                                    <li class="nav-item ">
+                                        <a href="#" class="nav-link "> Responsive </a>
+                                    </li>
+                                </ul>
+                            </li>                           
+                        </ul>
+                    </li>
+                  
+                    <li class="heading">
+                        <h3 class="uppercase">Layouts Features</h3>
+                    </li>
+                    <li class="nav-item  ">
+                        <a href="javascript:;" class="nav-link nav-toggle">
+                            <i class="icon-layers"></i>
+                            <span class="title"> Layouts</span>
+                            <span class="arrow"></span>
+                        </a>
+                        <ul class="sub-menu">
+                            <li class="nav-item  ">
+                                <a href="#" class="nav-link ">
+                                    <span class="title">Moja</span>
+                                </a>
+                            </li>
+                            <li class="nav-item  ">
+                                <a href="#" class="nav-link ">
+                                    <span class="title">Mbili</span>
+                                </a>
+                            </li>
+                            <li class="nav-item  ">
+                                <a href="#" class="nav-link ">
+                                    <span class="title">Tatu</span>
+                                </a>
+                            </li>
+                            <li class="nav-item  ">
+                                <a href="#" class="nav-link ">
+                                    <span class="title">Nne</span>
+                                </a>
+                            </li>
+                            <li class="nav-item  ">
+                                <a href="#" class="nav-link ">
+                                    <span class="title">Tano</span>
+                                </a>
+                            </li>                            
+                        </ul>
+                    </li>
+                    
+                   
+                
+                    <li class="heading">
+                        <h3 class="uppercase">Towns</h3>
+                    </li>
+                    <li class="nav-item  ">
+                        <a href="javascript:;" class="nav-link nav-toggle">
+                            <i class="icon-basket"></i>
+                            <span class="title">Kenya</span>
+                            <span class="arrow"></span>
+                        </a>
+                        <ul class="sub-menu">
+                            <li class="nav-item  ">
+                                <a href="#" class="nav-link ">
+                                    <i class="icon-home"></i>
+                                    <span class="title">Nakuru</span>
+                                </a>
+                            </li>
+                            <li class="nav-item  ">
+                                <a href="#" class="nav-link ">
+                                    <i class="icon-basket"></i>
+                                    <span class="title">Nairobi</span>
+                                </a>
+                            </li>
+                            <li class="nav-item  ">
+                                <a href="#" class="nav-link ">
+                                    <i class="icon-tag"></i>
+                                    <span class="title">Mombasa</span>
+                                </a>
+                            </li>
+                            <li class="nav-item  ">
+                                <a href="#" class="nav-link ">
+                                    <i class="icon-graph"></i>
+                                    <span class="title">Kisii</span>
+                                </a>
+                            </li>
+                            
+                        </ul>
+
+                    <li class="nav-item">
+                        <a href="javascript:;" class="nav-link nav-toggle">
+                            <i class="icon-folder"></i>
+                            <span class="title">Electronics</span>
+                            <span class="arrow "></span>
+                        </a>
+                        <ul class="sub-menu">
+                            <li class="nav-item">
+                                <a href="javascript:;" class="nav-link nav-toggle">
+                                    <i class="icon-settings"></i> Item 1
+                                    <span class="arrow"></span>
+                                </a>
+                                <ul class="sub-menu">
+                                    <li class="nav-item">
+                                        <a href="javascript:;" target="_blank" class="nav-link">
+                                            <i class="icon-user"></i> Radios
+                                            <span class="arrow nav-toggle"></span>
+                                        </a>
+                                        <ul class="sub-menu">
+                                            <li class="nav-item">
+                                                <a href="#" class="nav-link">
+                                                    <i class="icon-power"></i> Palito</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a href="#" class="nav-link">
+                                                    <i class="icon-paper-plane"></i> LG</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a href="#" class="nav-link">
+                                                    <i class="icon-star"></i> Samsung</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#" class="nav-link">
+                                            <i class="icon-camera"></i> Televisions</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#" class="nav-link">
+                                            <i class="icon-link"></i> Extensions</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#" class="nav-link">
+                                            <i class="icon-pointer"></i> Solar Panes</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a href="javascript:;" target="_blank" class="nav-link">
+                                    <i class="icon-globe"></i> Mobile Phones
+                                    <span class="arrow nav-toggle"></span>
+                                </a>
+                                <ul class="sub-menu">
+                                    <li class="nav-item">
+                                        <a href="#" class="nav-link">
+                                            <i class="icon-tag"></i> IPhone</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#" class="nav-link">
+                                            <i class="icon-pencil"></i> Tecno</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#" class="nav-link">
+                                            <i class="icon-graph"></i> OPPO</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">
+                                    <i class="icon-bar-chart"></i> Motorolla </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <!-- END SIDEBAR MENU -->
+                <!-- END SIDEBAR MENU -->
+            </div>
+            <!-- END SIDEBAR -->
+        </div>
+        <!-- END SIDEBAR -->
+        <!-- BEGIN CONTENT -->
+        <div class="page-content-wrapper" style="margin: 0px !important;">
+            <!-- BEGIN CONTENT BODY -->
+            <div class="page-content" style="margin: 0px !important;">
+                <!-- BEGIN PAGE HEADER-->
+                
+                <!-- BEGIN PAGE BAR -->
+                <div class="page-bar">
+                    <ul class="page-breadcrumb">
+                        <li>
+                            <a href="index.html">Home</a>
+                            <i class="fa fa-circle"></i>
+                        </li>
+                        <li>
+                            <span>Form Stuff</span>
+                        </li>
+                    </ul>
+                </div>
+                <!-- END PAGE BAR -->
+                <!-- BEGIN PAGE TITLE-->
+                <h3 class="page-title"> Bootstrap Form Controls
+                    <small>bootstrap form controls and more</small>
+                </h3>
+                <!-- END PAGE TITLE-->
+                <!-- END PAGE HEADER-->
+            </div>
+            <!-- END CONTENT BODY -->
+        </div>
+        <!-- END CONTENT -->
+       
+    </div>
+    <!-- END CONTAINER -->
+
+    <!-- BEGIN FOOTER -->
+    <div class="page-footer">
+        <div class="page-footer-inner"> 2024 &copy; ndolocr. </div>
+        <div class="scroll-to-top">
+            <i class="icon-arrow-up"></i>
+        </div>
+    </div>
+    <!-- END FOOTER -->
+     <!-- BEGIN CORE PLUGINS -->
+     <script src="assets/js/jquery.min.js" type="text/javascript"></script>
+     <script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
+     <script src="assets/js/js.cookie.min.js" type="text/javascript"></script>
+     <script src="assets/js/bootstrap-hover-dropdown.min.js" type="text/javascript"></script>
+     <script src="assets/js/jquery.slimscroll.min.js" type="text/javascript"></script>
+     <script src="assets/js/jquery.blockui.min.js" type="text/javascript"></script>
+     <script src="assets/js/jquery.uniform.min.js" type="text/javascript"></script>
+     <script src="assets/js/bootstrap-switch.min.js" type="text/javascript"></script>
+     <!-- END CORE PLUGINS -->
+     <!-- BEGIN THEME GLOBAL SCRIPTS -->
+     <script src="assets/js/app.min.js" type="text/javascript"></script>
+     <!-- END THEME GLOBAL SCRIPTS -->
+     <!-- BEGIN THEME LAYOUT SCRIPTS -->
+     <script src="assets/js/layout.min.js" type="text/javascript"></script>
+     <script src="assets/js/demo.min.js" type="text/javascript"></script>
+     <script src="assets/js/quick-sidebar.min.js" type="text/javascript"></script>
+     <!-- END THEME LAYOUT SCRIPTS -->
 </body>
 </html>

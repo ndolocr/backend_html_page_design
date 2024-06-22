@@ -19,6 +19,7 @@
     <link href="assets/css/jqvmap.css" rel="stylesheet" type="text/css" />
     <!-- END PAGE LEVEL PLUGINS -->
     <!-- BEGIN THEME GLOBAL STYLES -->
+    <link href="assets/css/components-rounded.css" rel="stylesheet" type="text/css" />
     <link href="assets/css/components.min.css" rel="stylesheet" id="style_components" type="text/css" />
     <link href="assets/css/plugins.min.css" rel="stylesheet" type="text/css" />
     <!-- END THEME GLOBAL STYLES -->
@@ -69,31 +70,29 @@
                         <!-- END SIDEBAR TOGGLER BUTTON -->
                     </li>                    
                     
-                    <li class="nav-item start ">
+                    <li class="nav-item start">
                         <a href="javascript:;" class="nav-link nav-toggle">
-                            <i class="icon-home"></i>
+                            <i class="icon-graph"></i>
                             <span class="title">Dashboard</span>
                             <span class="arrow"></span>
                         </a>
                         <ul class="sub-menu">
                             <li class="nav-item start ">
                                 <a href="index.html" class="nav-link ">
+                                    <i class="icon-list"></i>
+                                    <span class="title">Table</span>
+                                </a>
+                            </li>
+                            <li class="nav-item start ">
+                                <a href="#" class="nav-link ">
                                     <i class="icon-bar-chart"></i>
-                                    <span class="title">Dashboard 1</span>
+                                    <span class="title">Graph</span>
                                 </a>
                             </li>
                             <li class="nav-item start ">
-                                <a href="dashboard_2.html" class="nav-link ">
-                                    <i class="icon-bulb"></i>
-                                    <span class="title">Dashboard 2</span>
-                                    <span class="badge badge-success">1</span>
-                                </a>
-                            </li>
-                            <li class="nav-item start ">
-                                <a href="dashboard_3.html" class="nav-link ">
+                                <a href="#" class="nav-link ">
                                     <i class="icon-graph"></i>
-                                    <span class="title">Dashboard 3</span>
-                                    <span class="badge badge-danger">5</span>
+                                    <span class="title">Pie Chart</span>
                                 </a>
                             </li>
                         </ul>
@@ -101,16 +100,16 @@
                     <li class="heading">
                         <h3 class="uppercase">Menu</h3>
                     </li>
-                    <li class="nav-item  ">
+                    <li class="nav-item  active open">
                         <a href="javascript:;" class="nav-link nav-toggle">
-                            <i class="icon-diamond"></i>
-                            <span class="title">Menu Features</span>
+                            <i class="icon-folder"></i>
+                            <span class="title">Name Screening</span>
                             <span class="arrow"></span>
                         </a>
                         <ul class="sub-menu">
                             <li class="nav-item  ">
-                                <a href="#" class="nav-link ">
-                                    <span class="title">One</span>
+                                <a href="index.html" class="nav-link ">
+                                    <span class="title">Name Search</span>
                                 </a>
                             </li>
                             <li class="nav-item  ">
@@ -420,8 +419,8 @@
                 <!-- END THEME PANEL -->
 
                 <!-- BEGIN PAGE TITLE-->
-                <h3 class="page-title"> Bootstrap Form Controls
-                    <small>bootstrap form controls and more</small>
+                <h3 class="page-title"> Name Screening
+                    <small>name search results from WorldCheck</small>
                 </h3>
                 <!-- END PAGE TITLE-->
                 <!-- END PAGE HEADER-->
@@ -429,7 +428,83 @@
 
 
                 <!--  -->
-DATA HERE
+
+
+                <div class="row">
+                    <div class="col-md-12">
+                        
+                        <!-- BEGIN SAMPLE TABLE PORTLET-->
+                        <div class="portlet box green">
+                            <div class="portlet-title">
+                                <div class="caption">
+                                    <i class="fa fa-cogs"></i> Name Screening </div>                                
+                            </div>
+                            <div class="portlet-body flip-scroll">
+                                <table class="table table-bordered table-striped table-condensed flip-content">
+                                    <thead class="flip-content">
+                                        <tr>
+                                            <th> # </th>                                                
+                                            <th> Case ID </th>
+                                            <th> Name </th>
+                                            <th> Gender % </th>
+                                            <th> Nationality </th>
+                                            <th> DOB </th>
+                                            <th> Doc Type </th>
+                                            <th> Doc ID </th>                                                
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td> 1 </td>
+                                            <td> 2233 </td>
+                                            <td> Shan Kamal </td>
+                                            <td> Male </td>
+                                            <td> India </td>
+                                            <td> 06/08/1951 </td>
+                                            <td> Passport </td>
+                                            <td> A445655 </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td> 2 </td>
+                                            <td> 2233 </td>
+                                            <td> Shan Kamal </td>
+                                            <td> Male </td>
+                                            <td> India </td>
+                                            <td> 06/08/1951 </td>
+                                            <td> Passport </td>
+                                            <td> A445655 </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td> 3 </td>
+                                            <td> 2233 </td>
+                                            <td> Shan Kamal </td>
+                                            <td> Male </td>
+                                            <td> India </td>
+                                            <td> 06/08/1951 </td>
+                                            <td> Passport </td>
+                                            <td> A445655 </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td> 4 </td>
+                                            <td> 2233 </td>
+                                            <td> Shan Kamal </td>
+                                            <td> Male </td>
+                                            <td> India </td>
+                                            <td> 06/08/1951 </td>
+                                            <td> Passport </td>
+                                            <td> A445655 </td>
+                                        </tr>
+                                       
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <!-- END SAMPLE TABLE PORTLET-->
+                    </div>
+                </div>
                 <!--  -->
 
 

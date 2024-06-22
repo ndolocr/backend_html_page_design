@@ -1,0 +1,39 @@
+.form-sidebar-cntrl{
+    padding: 15px;
+}
+
+.form-sidebar-cntrl .form-sidebar-item{
+    width: 100%;
+    padding: 5px;
+   border: solid 1px #707070;;
+}
+
+.input-group-new{
+    width:100%;
+}
+
+.input-group-addon-new{
+    padding: .375rem .75rem;
+    height: 100%;
+    color: #FFF; 
+    /* float: left; */
+}
+
+.form-control-new{
+    width: 80%;
+    /* display: block; */
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    /* float: left; */
+}
+
+.clear-float-new{ clear: both;}
+
+.theme-option{ margin: 0;}
+.theme-options{
+    max-height: 400px;
+    overflow: scroll;
+    
+}
